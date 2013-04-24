@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form action="admin/stuff" method="POST">
+    <field type="string" name="email"></field>
+    <field type="string" name="skype"></field>
+    <field type="string" name="icq"></field>
+    <field type="string" name="phone"></field>
+    <field type="string" name="phone2"></field>
+    <field type="string" name="site_name"></field>
+    <field type="string" name="ogrn"></field>
+    <field type="string" name="work_hours"></field>
+    <field type="string" name="descript"></field>
+    <field type="string" name="year"></field>
+    <field type="string" name="title_postfix"></field>
+    <field type="string" name="google_analytics"></field>
+    <field type="string" name="yandex_metrika"></field>
+    <field type="string" name="google_verification"></field>
+    <field type="string" name="yandex_verification"></field>
+    <field type="textarea" name="counter"></field>
+    <field type="textarea" name="pay_alfabank"></field>
+    <field type="textarea" name="pay_sberbank"></field>
+    <field type="textarea" name="pay_contact"></field>
+</form>

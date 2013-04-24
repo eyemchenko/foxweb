@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form action="admin/people/add" method="POST">
+    <field type="string" name="name">
+        <property notnull="1"><error>Пожалуйста, введите имя</error></property>
+    </field>
+    <field type="string" name="city">
+        <property notnull="1"><error>Пожалуйста, укажите город</error></property>
+    </field>
+    <field type="string" name="phone"></field>
+    <field type="string" name="duties">
+        <property notnull="1"><error>Пожалуйста, укажите место работы</error></property>
+    </field>
+    <field type="string" name="website"></field>
+    <field type="textarea" name="message">
+        <property notnull="1"><error>Напишите что-нибудь</error></property>
+    </field>
+    <field type="hidden" name="pictureKey"></field>
+</form>

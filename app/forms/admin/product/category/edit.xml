@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form action="admin/product/category/edit" method="POST">
+    <field type="string" name="name">
+        <property notnull="1"><error>Введите наименование категории</error></property>
+    </field>
+    <field type="textarea" name="description_wiki"></field>
+    <field type="textarea" name="block"></field>
+    <field type="textarea" name="seotext_wiki"></field>
+    <field type="string" name="title"></field>
+    <field type="string" name="keywords"></field>
+    <field type="textarea" name="description"></field>
+    <field type="hidden" name="parent_id"></field>
+</form>
