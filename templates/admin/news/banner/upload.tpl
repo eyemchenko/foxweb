@@ -1,1 +1,0 @@
-<!-- INCLUDE admin/news/banner/resize.tpl -->

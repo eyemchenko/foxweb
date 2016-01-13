@@ -1,3 +1,0 @@
-<!-- BEGIN menu -->
-
-<!-- END menu -->

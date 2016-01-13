@@ -1,1 +1,0 @@
-<!-- BEGIN testimonial -->{testimonial.MESSAGE}<!-- END testimonial -->
