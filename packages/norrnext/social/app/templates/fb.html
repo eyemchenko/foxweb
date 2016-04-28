@@ -1,0 +1,70 @@
+<li class="active">
+    <div class="uk-width-1-1">
+
+        <div class="uk-form-row">
+            <label for="field-fb-profile" class="uk-form-label">{{ 'Profile' | trans  }}</label>
+            <div class="uk-form-controls">
+                <input id="field-fb-profile" class="uk-form-width-large" type="text" v-model="widget.data.fb.profile" >
+                <p class="uk-form-help-block">
+                    {{ 'The profile of the Facebook Page. For example: facebook.com/{profile}, where {profile} is your Facebook profile.' | trans }}
+                </p>
+            </div>
+        </div>
+
+        <div class="uk-form-row">
+            <label for="field-fb-width" class="uk-form-label">{{ 'Width' | trans  }}</label>
+            <div class="uk-form-controls">
+                <input id="field-fb-width" class="uk-form-width-small" type="text" v-model="widget.data.fb.width">
+                <p class="uk-form-help-block">{{ 'Set the width of widget. Minimum is %minwidth% and maximum is %maxwidth%' | trans {minwidth:292,maxwidth:500} }}</p>
+            </div>
+        </div>
+
+        <div class="uk-form-row">
+            <label for="field-fb-height" class="uk-form-label">{{ 'Height' | trans  }}</label>
+            <div class="uk-form-controls">
+                <input id="field-fb-height" class="uk-form-width-small" type="text" v-model="widget.data.fb.height">
+                <p class="uk-form-help-block">{{ 'Set the height of widget. Minimum is %height%' | trans {height:70} }}</p>
+            </div>
+        </div>
+
+        <div class="uk-form-row">
+            <label for="field-fb-cover" class="uk-form-label">{{ 'Hide Cover' | trans  }}</label>
+            <div class="uk-form-controls">
+                <input id="field-fb-cover" type="checkbox" value="fb.cover" v-model="widget.data.fb.cover">
+                <p class="uk-form-help-block">{{ 'Hide cover photo in the header.' | trans  }}</p>
+            </div>
+        </div>
+
+        <div class="uk-form-row">
+            <label for="field-fb-faces" class="uk-form-label">{{ 'Show Faces' | trans  }}</label>
+            <div class="uk-form-controls uk-form-controls-text">
+                <input id="field-fb-faces" type="checkbox" value="fb.facepile" v-model="widget.data.fb.facepile">
+                <p class="uk-form-help-block">{{ 'Show profile photos when friends like this.' | trans  }}</p>
+            </div>
+        </div>
+
+        <div class="uk-form-row">
+            <label for="field-fb-header" class="uk-form-label">{{ 'Small Header' | trans  }}</label>
+            <div class="uk-form-controls uk-form-controls-text">
+                <input id="field-fb-header" type="checkbox" value="fb.height" v-model="widget.data.fb.header">
+                <p class="uk-form-help-block">{{ 'Use the small header.' | trans  }}</p>
+            </div>
+        </div>
+
+        <div class="uk-form-row">
+            <label for="field-fb-posts" class="uk-form-label">{{ 'Show Posts' | trans  }}</label>
+            <div class="uk-form-controls uk-form-controls-text">
+                <input id="field-fb-posts" type="checkbox" value="fb.posts" v-model="widget.data.fb.posts">
+                <p class="uk-form-help-block">{{ 'Show posts from the timeline.' | trans  }}</p>
+            </div>
+        </div>
+
+        <div class="uk-form-row">
+            <label for="field-fb-adapt" class="uk-form-label">{{ 'Adapt' | trans  }}</label>
+            <div class="uk-form-controls uk-form-controls-text">
+                <input id="field-fb-adapt" type="checkbox" value="fb.adapt" v-model="widget.data.fb.adapt">
+                <p class="uk-form-help-block">{{ 'Try to fit inside the container width.' | trans  }}</p>
+            </div>
+        </div>
+    </div>
+</li>

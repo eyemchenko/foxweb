@@ -1,0 +1,81 @@
+<li>
+    <div class="uk-width-1-1">
+
+        <div class="uk-form-row">
+            <label for="field-gp-id" class="uk-form-label">{{ 'ID' | trans }}</label>
+            <div class="uk-form-controls">
+                <input id="field-gp-id" class="uk-form-width-medium" type="text" v-model="widget.data.gp.id" >
+                <p class="uk-form-help-block">{{ 'Enter your Google+ ID' | trans }}</p>
+            </div>
+        </div>
+
+        <div class="uk-form-row">
+            <label for="field-gp-type" class="uk-form-label">{{ 'Type' | trans }}</label>
+            <div class="uk-form-controls">
+                <select id="field-gp-type" class="uk-width-1-1" v-model="widget.data.gp.type">
+                    <option value="person">{{ 'Profile' | trans }}</option>
+                    <option value="page">{{ 'Page' | trans }}</option>
+                    <option value="community">{{ 'Community' | trans }}</option>
+                </select>
+                <p class="uk-form-help-block">{{ 'Choose the type of the badge' | trans }}</p>
+            </div>
+        </div>
+
+        <div class="uk-form-row">
+            <label for="field-gp-layout" class="uk-form-label">{{ 'Layout' | trans }}</label>
+            <div class="uk-form-controls">
+                <select id="field-gp-layout" class="uk-width-1-1" v-model="widget.data.gp.layout">
+                    <option value="portrait">{{ 'Portrait' | trans }}</option>
+                    <option value="landscape">{{ 'Landscape' | trans }}</option>
+                </select>
+                <p class="uk-form-help-block">{{ 'Sets the orientation of the badge' | trans }}</p>
+            </div>
+        </div>
+
+        <div class="uk-form-row">
+            <label for="field-gp-theme" class="uk-form-label">{{ 'Theme' | trans }}</label>
+            <div class="uk-form-controls">
+                <select id="field-gp-theme" class="uk-width-1-1" v-model="widget.data.gp.theme">
+                    <option value="light">{{ 'Light' | trans }}</option>
+                    <option value="dark">{{ 'Dark' | trans }}</option>
+                </select>
+                <p class="uk-form-help-block">{{ 'The color theme of the badge. Use dark when placing the badge on a page with a dark background.' | trans }}</p>
+            </div>
+        </div>
+
+        <div class="uk-form-row">
+            <span class="uk-form-label">{{ 'Width' | trans }}</span>
+            <div class="uk-form-controls">
+                <input id="field-gp-width" class="uk-form-width-small" type="text" v-model="widget.data.gp.width" >
+                <p class="uk-form-help-block">
+                    {{ 'Set the width of badge. The following ranges are valid: Portrait layout - 180-450 px; Landscape layout - 273-450 px' | trans }}
+                </p>
+            </div>
+        </div>
+
+        <div class="uk-form-row">
+            <label for="field-gp-cover" class="uk-form-label">{{ 'Show Cover Photo' | trans }}</label>
+            <div class="uk-form-controls uk-form-controls-text">
+                <input id="field-gp-cover" type="checkbox" value="gp.showphoto" v-model="widget.data.gp.showphoto">
+                <p class="uk-form-help-block">{{ 'Specifies whether to display the cover photo in the badge if set to yes and the photo exists.' | trans }}</p>
+            </div>
+        </div>
+
+        <div class="uk-form-row">
+            <label for="field-gp-tagline" class="uk-form-label">{{ 'Show Tagline' | trans }}</label>
+            <div class="uk-form-controls uk-form-controls-text">
+                <input id="field-gp-tagline" type="checkbox" value="gp.showtagline" v-model="widget.data.gp.showtagline">
+                <p class="uk-form-help-block">{{ 'Specifies whether to display the tag line if set to yes.' | trans }}</p>
+            </div>
+        </div>
+
+        <div class="uk-form-row">
+            <label for="field-gp-owners" class="uk-form-label">{{ 'Show owners' | trans }}</label>
+            <div class="uk-form-controls uk-form-controls-text">
+                <input id="field-gp-owners" type="checkbox" value="gp.showowners" v-model="widget.data.gp.showowners">
+                <p class="uk-form-help-block">{{ 'Specifies whether to display a list of community owners if set to yes. Works only for community.' | trans }}</p>
+            </div>
+        </div>
+
+    </div>
+</li>

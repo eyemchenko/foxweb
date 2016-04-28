@@ -1,0 +1,43 @@
+<li class="active">
+    <div class="uk-width-1-1">
+
+        <div class="uk-form-row">
+            <label for="field-layout" class="uk-form-label">{{ 'Layout' | trans }}</label>
+            <div class="uk-form-controls">
+                <select id="field-layout" class="uk-width-1-1" v-model="widget.data.layout">
+                    <option value="default">{{ 'Default' | trans }}</option>
+                    <option value="tabs">{{ 'Tabs' | trans }}</option>
+                    <option value="switcher">{{ 'Switcher' | trans }}</option>
+                </select>
+                <p class="uk-form-help-block">
+                    {{ 'Choose the layout of the widget: Default - social widgets will be displayed one by one. Tabs - social widgets will be displayed in tabs. Switcher - social widgets will be toggled.' | trans }}
+                </p>
+            </div>
+        </div>
+
+        <div id="titles-style" class="uk-form-row">
+            <label for="field-titles" class="uk-form-label">{{ 'Titles style' | trans }}</label>
+            <div class="uk-form-controls">
+                <select id="field-titles" class="uk-width-1-1" v-model="widget.data.titles">
+                    <option value="full">{{ 'Text + icons' | trans }}</option>
+                    <option value="text">{{ 'Text only' | trans }}</option>
+                    <option value="icons">{{ 'Icons only' | trans }}</option>
+                </select>
+                <p class="uk-form-help-block">
+                    {{ 'Choose the titles style for tabs and switcher' | trans }}
+                </p>
+            </div>
+        </div>
+
+        <div class="uk-form-row">
+            <label for="field-order" class="uk-form-label">{{ 'Display and order' | trans }}</label>
+            <div class="uk-form-controls">
+                <input id="field-order" class="uk-form-width-large" type="text" v-model="widget.data.order">
+                <p class="uk-form-help-block">
+                    {{ 'Simply remove one of the numbers and the corresponding social widget will not be displayed. Control the order by swapping the numbers. Please note, that the numbers should be comma separated. 1 - Facebook; 2 - Google+; 3 - VK' | trans }}
+                </p>
+            </div>
+        </div>
+
+    </div>
+</li>
