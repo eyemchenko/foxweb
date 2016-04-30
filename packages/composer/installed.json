@@ -200,13 +200,13 @@
     },
     {
         "name": "norrnext/social-share",
-        "version": "1.0.1",
-        "version_normalized": "1.0.1.0",
+        "version": "1.0.2",
+        "version_normalized": "1.0.2.0",
         "dist": {
             "type": "zip",
-            "url": "https://pagekit.com/package/norrnext/social-share/1.0.1.zip",
+            "url": "https://pagekit.com/package/norrnext/social-share/1.0.2.zip",
             "reference": null,
-            "shasum": "a4197cf4184cf4737d91f2d9528dd18dc48cd398"
+            "shasum": "fa056a8d605669f891c9e8148abfcb4eac457680"
         },
         "type": "pagekit-extension",
         "extra": {
@@ -225,5 +225,29 @@
             }
         ],
         "description": "This plugin displays share buttons in blog posts."
+    },
+    {
+        "name": "vision/recent-blog-posts",
+        "version": "0.1.1",
+        "version_normalized": "0.1.1.0",
+        "dist": {
+            "type": "zip",
+            "url": "https://pagekit.com/package/vision/recent-blog-posts/0.1.1.zip",
+            "reference": null,
+            "shasum": "e9bfcc74227d6c5f6b34d8b1e3efc1ac71008e09"
+        },
+        "type": "pagekit-extension",
+        "installation-source": "dist",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Vision",
+                "email": "y.paiha@gmail.com",
+                "homepage": ""
+            }
+        ],
+        "description": "A recent blog posts widget"
     }
 ]

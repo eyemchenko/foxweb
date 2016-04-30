@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "31dc3e891bbcf1e6c1f797393a573c9b",
-    "content-hash": "b58b57029d8e13114c285640dc2ba040",
+    "hash": "c8be959c96f0faaf4a4cdbf0eb342ba7",
+    "content-hash": "c2f7fe70872cbeaff56c0248db1e6d38",
     "packages": [
         {
             "name": "lusitanian/oauth",
@@ -95,12 +95,12 @@
         },
         {
             "name": "norrnext/social-share",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "dist": {
                 "type": "zip",
-                "url": "https://pagekit.com/package/norrnext/social-share/1.0.1.zip",
+                "url": "https://pagekit.com/package/norrnext/social-share/1.0.2.zip",
                 "reference": null,
-                "shasum": "a4197cf4184cf4737d91f2d9528dd18dc48cd398"
+                "shasum": "fa056a8d605669f891c9e8148abfcb4eac457680"
             },
             "type": "pagekit-extension",
             "extra": {
@@ -221,6 +221,28 @@
                 }
             ],
             "description": "Pagekit's default theme."
+        },
+        {
+            "name": "vision/recent-blog-posts",
+            "version": "0.1.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/vision/recent-blog-posts/0.1.1.zip",
+                "reference": null,
+                "shasum": "e9bfcc74227d6c5f6b34d8b1e3efc1ac71008e09"
+            },
+            "type": "pagekit-extension",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vision",
+                    "email": "y.paiha@gmail.com",
+                    "homepage": ""
+                }
+            ],
+            "description": "A recent blog posts widget"
         }
     ],
     "packages-dev": [],

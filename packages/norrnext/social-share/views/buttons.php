@@ -1,9 +1,8 @@
 <?php
 /**
- * @version    1.0.0
  * @package    Pkb Social Share
  * @author     Dmitry Rekun and Artem Valchuk <support@norrnext.com>
- * @copyright  Copyright © 2015 NorrNext. All rights reserved.
+ * @copyright  Copyright © 2015 - 2016 NorrNext. All rights reserved.
  * @license    GNU General Public License version 3 or later; see license.txt
  */
 
@@ -11,7 +10,7 @@ $view->style('buttons', 'norrnext/social-share:assets/css/share.css', 'uikit');
 $view->script('buttons', 'norrnext/social-share:assets/js/share.js', 'uikit');
 
 $url   = $view->url('@blog/id', ['id' => $id]);
-$url   = $app["url"]->base(true) . $url;
+$url   = $app["url"]->base(0) . $url;
 $image = (!empty($image)) ? $app["url"]->base(true) .'/'. $image : '';
 $class = ' pkb-socialshare';
 if($config->get('buttons.position', 'static')){
