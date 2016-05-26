@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="50px" height="21px" viewBox="0 0 50 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.1 (25234) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_ndplus</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M0,0.674032258 L49.8776316,0.674032258 L49.8776316,21 L0,21 L0,0.674032258 Z"></path>
+    </defs>
+    <g id="Feb-4---New-style" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Enrollment---ND-Plus" sketch:type="MSArtboardGroup" transform="translate(-1101.000000, -392.000000)">
+            <g id="Enrollment-options" sketch:type="MSLayerGroup" transform="translate(29.000000, 3.000000)">
+                <g id="cards" transform="translate(207.000000, 297.000000)">
+                    <g id="primary-card" transform="translate(480.000000, 20.000000)">
+                        <g id="icon_ndplus" transform="translate(375.000000, 62.000000)">
+                            <rect id="bounds" opacity="0" fill="#FAFBFC" sketch:type="MSShapeGroup" x="0" y="0" width="70" height="41"></rect>
+                            <g id="Page-1" transform="translate(10.000000, 10.000000)">
+                                <mask id="mask-2" sketch:name="Clip 2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="Clip-2"></g>
+                                <path d="M22.1961842,18.8775774 L3.33828947,18.8775774 L14.2152632,3.47780323 L23.5461842,16.9659 L22.1961842,18.8775774 Z M33.5540789,2.79631935 L24.9389474,14.9946097 L16.3231579,2.79631935 L33.5540789,2.79631935 Z M44.9988158,12.9223839 L43.2507895,14.2216742 L46.5389474,18.8775774 L27.6817105,18.8775774 L26.3317105,16.9659 L35.6626316,3.47780323 L37.3896053,5.9232871 L39.2593421,4.62535161 L36.7553947,1.0059 C36.6915789,0.93273871 36.6784211,0.917158065 36.6639474,0.902254839 C36.6310526,0.86906129 36.5948684,0.840609677 36.5567105,0.814190323 C36.4646053,0.754577419 36.4198684,0.736287097 36.3731579,0.720706452 C36.2613158,0.684803226 36.1955263,0.673964516 36.1277632,0.673964516 L13.7514474,0.673964516 C13.6823684,0.673964516 13.6165789,0.684803226 13.5527632,0.70173871 C13.4580263,0.736287097 13.4132895,0.754577419 13.3705263,0.779641935 C13.2830263,0.840609677 13.2468421,0.86906129 13.2132895,0.902932258 C13.1560526,0.967964516 13.1369737,0.984222581 13.1225,1.0059 L0.138947368,19.7738032 C-0.0255263158,20.0109 -0.0452631579,20.3231903 0.0869736842,20.5799323 C0.218552632,20.8387065 0.480394737,20.9999323 0.766578947,20.9999323 L23.1428947,20.9999323 C23.3928947,20.9999323 23.6264474,20.8766419 23.7705263,20.6679968 L24.9389474,18.9791903 L26.1073684,20.6679968 C26.2507895,20.8766419 26.4843421,20.9999323 26.735,20.9999323 L49.1113158,20.9999323 C49.3968421,20.9999323 49.6593421,20.8387065 49.7909211,20.5799323 C49.9231579,20.3231903 49.9034211,20.0109 49.7382895,19.7738032 L44.9988158,12.9223839 Z" id="Fill-1" fill="#028BB1" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+                            </g>
+                            <g id="plus" transform="translate(47.081276, 15.419355)" fill="#028BB1" sketch:type="MSShapeGroup">
+                                <rect id="Rectangle-18" x="3.99369904" y="0" width="1.97368421" height="8.80645161"></rect>
+                                <rect id="Rectangle-18" transform="translate(4.980541, 4.403226) rotate(-270.000000) translate(-4.980541, -4.403226) " x="3.99369904" y="0" width="1.97368421" height="8.80645161"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
