@@ -14,7 +14,7 @@
         'host' => 'localhost',
         'user' => 'root',
         'prefix' => 'pk_',
-        'password' => 'root',
+        'password' => 'JbBDmuMMpW1pNKunYkUVdtyF',
       ),
     ),
   ),
