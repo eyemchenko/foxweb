@@ -1,0 +1,2 @@
+$(document).ready(function(){$('.element').hover(function(){$(this).find('span').toggleClass('hover-element');})
+$('.element').on('click',function(){$(this).find('.img-wrap').fadeOut();$(this).find('.text1').fadeOut();$(this).find('.hidden-sep').fadeIn();$(this).find('.hidden-text').fadeIn();})});
